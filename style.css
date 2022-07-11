@@ -1,0 +1,18 @@
+:root {
+  --background: linear-gradient(#4b1a83, #301152);
+  --light-purple: #8659b9;
+  --dark-purple: #301152;
+  --yellow: #f7d231;
+  --red: #ec1459;
+  --white: #eee5f8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: var(--background);
+}

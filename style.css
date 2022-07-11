@@ -19,7 +19,7 @@ body {
 }
 
 /* Game Page */
-#game {
+.game {
   opacity: 0;
   background-image: var(--background);
   min-width: 100vw;
@@ -55,7 +55,7 @@ body {
   text-transform: uppercase;
 }
 
-#gameboard {
+.gameboard {
   min-width: 30vw;
   min-height: 50vh;
   display: grid;
@@ -79,7 +79,7 @@ body {
 
 /* Intro */ 
 
-#intro {
+.intro {
   position: absolute;
   left: 50%;
   top: 30%;
@@ -95,7 +95,7 @@ body {
   -o-transition: .5s;
 }
 
-#intro h1 {
+.intro h1 {
   font-size: 8rem;
 }
 
@@ -111,7 +111,7 @@ body {
   color: var(--white);
 }
 
-#intro button {
+.intro button {
   font-size: 2.5rem;
   padding: 8px 16px;
   background-color: var(--white);
